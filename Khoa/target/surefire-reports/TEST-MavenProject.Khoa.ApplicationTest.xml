@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="MavenProject.Khoa.ApplicationTest" time="0.938" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\KhoaTran\eclipse-workspace\Khoa\target\test-classes;C:\Users\KhoaTran\eclipse-workspace\Khoa\target\classes;C:\Users\KhoaTran\.m2\repository\org\apache\apex\malhar-library\3.8.0\malhar-library-3.8.0.jar;C:\Users\KhoaTran\.m2\repository\org\eclipse\jetty\jetty-servlet\8.1.10.v20130312\jetty-servlet-8.1.10.v20130312.jar;C:\Users\KhoaTran\.m2\repository\org\eclipse\jetty\jetty-security\8.1.10.v20130312\jetty-security-8.1.10.v20130312.jar;C:\Users\KhoaTran\.m2\repository\org\eclipse\jetty\jetty-server\8.1.10.v20130312\jetty-server-8.1.10.v20130312.jar;C:\Users\KhoaTran\.m2\repository\org\eclipse\jetty\jetty-continuation\8.1.10.v20130312\jetty-continuation-8.1.10.v20130312.jar;C:\Users\KhoaTran\.m2\repository\com\sun\mail\javax.mail\1.5.0\javax.mail-1.5.0.jar;C:\Users\KhoaTran\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\KhoaTran\.m2\repository\com\sun\jersey\jersey-client\1.9\jersey-client-1.9.jar;C:\Users\KhoaTran\.m2\repository\javax\jms\jms-api\1.1-rev-1\jms-api-1.1-rev-1.jar;C:\Users\KhoaTran\.m2\repository\org\apache\activemq\activemq-client\5.8.0\activemq-client-5.8.0.jar;C:\Users\KhoaTran\.m2\repository\org\apache\geronimo\specs\geronimo-jms_1.1_spec\1.1.1\geronimo-jms_1.1_spec-1.1.1.jar;C:\Users\KhoaTran\.m2\repository\org\fusesource\hawtbuf\hawtbuf\1.9\hawtbuf-1.9.jar;C:\Users\KhoaTran\.m2\repository\org\apache\geronimo\specs\geronimo-j2ee-management_1.1_spec\1.0.1\geronimo-j2ee-management_1.1_spec-1.0.1.jar;C:\Users\KhoaTran\.m2\repository\org\slf4j\slf4j-api\1.7.5\slf4j-api-1.7.5.jar;C:\Users\KhoaTran\.m2\repository\com\github\tony19\named-regexp\0.2.3\named-regexp-0.2.3.jar;C:\Users\KhoaTran\.m2\repository\org\apache\commons\commons-lang3\3.1\commons-lang3-3.1.jar;C:\Users\KhoaTran\.m2\repository\org\codehaus\janino\commons-compiler\2.7.8\commons-compiler-2.7.8.jar;C:\Users\KhoaTran\.m2\repository\org\eclipse\jetty\jetty-websocket\8.1.10.v20130312\jetty-websocket-8.1.10.v20130312.jar;C:\Users\KhoaTran\.m2\repository\org\eclipse\jetty\jetty-util\8.1.10.v20130312\jetty-util-8.1.10.v20130312.jar;C:\Users\KhoaTran\.m2\repository\org\eclipse\jetty\jetty-io\8.1.10.v20130312\jetty-io-8.1.10.v20130312.jar;C:\Users\KhoaTran\.m2\repository\org\eclipse\jetty\jetty-http\8.1.10.v20130312\jetty-http-8.1.10.v20130312.jar;C:\Users\KhoaTran\.m2\repository\commons-beanutils\commons-beanutils\1.9.2\commons-beanutils-1.9.2.jar;C:\Users\KhoaTran\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\Users\KhoaTran\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;C:\Users\KhoaTran\.m2\repository\joda-time\joda-time\2.9.1\joda-time-2.9.1.jar;C:\Users\KhoaTran\.m2\repository\it\unimi\dsi\fastutil\7.0.6\fastutil-7.0.6.jar;C:\Users\KhoaTran\.m2\repository\org\jooq\jooq\3.6.4\jooq-3.6.4.jar;C:\Users\KhoaTran\.m2\repository\org\apache\apex\apex-shaded-ning19\1.0.0\apex-shaded-ning19-1.0.0.jar;C:\Users\KhoaTran\.m2\repository\com\amazonaws\aws-java-sdk-s3\1.10.73\aws-java-sdk-s3-1.10.73.jar;C:\Users\KhoaTran\.m2\repository\com\amazonaws\aws-java-sdk-kms\1.10.73\aws-java-sdk-kms-1.10.73.jar;C:\Users\KhoaTran\.m2\repository\com\amazonaws\aws-java-sdk-core\1.10.73\aws-java-sdk-core-1.10.73.jar;C:\Users\KhoaTran\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-cbor\2.5.3\jackson-dataformat-cbor-2.5.3.jar;C:\Users\KhoaTran\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.5.4\jackson-databind-2.5.4.jar;C:\Users\KhoaTran\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.5.0\jackson-annotations-2.5.0.jar;C:\Users\KhoaTran\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.5.4\jackson-core-2.5.4.jar;C:\Users\KhoaTran\.m2\repository\org\apache\apex\apex-common\3.7.0\apex-common-3.7.0.jar;C:\Users\KhoaTran\.m2\repository\org\apache\apex\apex-api\3.7.0\apex-api-3.7.0.jar;C:\Users\KhoaTran\.m2\repository\org\apache\hadoop\hadoop-common\2.6.0\hadoop-common-2.6.0.jar;C:\Users\KhoaTran\.m2\repository\org\apache\commons\commons-math3\3.1.1\commons-math3-3.1.1.jar;C:\Users\KhoaTran\.m2\repository\xmlenc\xmlenc\0.52\xmlenc-0.52.jar;C:\Users\KhoaTran\.m2\repository\commons-httpclient\commons-httpclient\3.1\commons-httpclient-3.1.jar;C:\Users\KhoaTran\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;C:\Users\KhoaTran\.m2\repository\commons-net\commons-net\3.1\commons-net-3.1.jar;C:\Users\KhoaTran\.m2\repository\javax\servlet\servlet-api\2.5\servlet-api-2.5.jar;C:\Users\KhoaTran\.m2\repository\org\mortbay\jetty\jetty\6.1.26\jetty-6.1.26.jar;C:\Users\KhoaTran\.m2\repository\org\mortbay\jetty\jetty-util\6.1.26\jetty-util-6.1.26.jar;C:\Users\KhoaTran\.m2\repository\com\sun\jersey\jersey-json\1.9\jersey-json-1.9.jar;C:\Users\KhoaTran\.m2\repository\org\codehaus\jettison\jettison\1.1\jettison-1.1.jar;C:\Users\KhoaTran\.m2\repository\com\sun\xml\bind\jaxb-impl\2.2.3-1\jaxb-impl-2.2.3-1.jar;C:\Users\KhoaTran\.m2\repository\tomcat\jasper-compiler\5.5.23\jasper-compiler-5.5.23.jar;C:\Users\KhoaTran\.m2\repository\tomcat\jasper-runtime\5.5.23\jasper-runtime-5.5.23.jar;C:\Users\KhoaTran\.m2\repository\javax\servlet\jsp\jsp-api\2.1\jsp-api-2.1.jar;C:\Users\KhoaTran\.m2\repository\commons-el\commons-el\1.0\commons-el-1.0.jar;C:\Users\KhoaTran\.m2\repository\net\java\dev\jets3t\jets3t\0.9.0\jets3t-0.9.0.jar;C:\Users\KhoaTran\.m2\repository\com\jamesmurty\utils\java-xmlbuilder\0.4\java-xmlbuilder-0.4.jar;C:\Users\KhoaTran\.m2\repository\commons-configuration\commons-configuration\1.6\commons-configuration-1.6.jar;C:\Users\KhoaTran\.m2\repository\commons-digester\commons-digester\1.8\commons-digester-1.8.jar;C:\Users\KhoaTran\.m2\repository\org\slf4j\slf4j-log4j12\1.7.5\slf4j-log4j12-1.7.5.jar;C:\Users\KhoaTran\.m2\repository\com\google\protobuf\protobuf-java\2.5.0\protobuf-java-2.5.0.jar;C:\Users\KhoaTran\.m2\repository\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar;C:\Users\KhoaTran\.m2\repository\org\apache\hadoop\hadoop-auth\2.6.0\hadoop-auth-2.6.0.jar;C:\Users\KhoaTran\.m2\repository\org\apache\directory\server\apacheds-kerberos-codec\2.0.0-M15\apacheds-kerberos-codec-2.0.0-M15.jar;C:\Users\KhoaTran\.m2\repository\org\apache\directory\server\apacheds-i18n\2.0.0-M15\apacheds-i18n-2.0.0-M15.jar;C:\Users\KhoaTran\.m2\repository\org\apache\directory\api\api-asn1-api\1.0.0-M20\api-asn1-api-1.0.0-M20.jar;C:\Users\KhoaTran\.m2\repository\org\apache\directory\api\api-util\1.0.0-M20\api-util-1.0.0-M20.jar;C:\Users\KhoaTran\.m2\repository\org\apache\curator\curator-framework\2.6.0\curator-framework-2.6.0.jar;C:\Users\KhoaTran\.m2\repository\com\jcraft\jsch\0.1.42\jsch-0.1.42.jar;C:\Users\KhoaTran\.m2\repository\org\apache\curator\curator-client\2.6.0\curator-client-2.6.0.jar;C:\Users\KhoaTran\.m2\repository\org\apache\curator\curator-recipes\2.6.0\curator-recipes-2.6.0.jar;C:\Users\KhoaTran\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\KhoaTran\.m2\repository\org\htrace\htrace-core\3.0.4\htrace-core-3.0.4.jar;C:\Users\KhoaTran\.m2\repository\org\apache\zookeeper\zookeeper\3.4.6\zookeeper-3.4.6.jar;C:\Users\KhoaTran\.m2\repository\io\netty\netty\3.7.0.Final\netty-3.7.0.Final.jar;C:\Users\KhoaTran\.m2\repository\org\apache\commons\commons-compress\1.4.1\commons-compress-1.4.1.jar;C:\Users\KhoaTran\.m2\repository\org\tukaani\xz\1.0\xz-1.0.jar;C:\Users\KhoaTran\.m2\repository\com\datatorrent\netlet\1.3.2\netlet-1.3.2.jar;C:\Users\KhoaTran\.m2\repository\com\esotericsoftware\kryo\kryo\2.24.0\kryo-2.24.0.jar;C:\Users\KhoaTran\.m2\repository\com\esotericsoftware\minlog\minlog\1.2\minlog-1.2.jar;C:\Users\KhoaTran\.m2\repository\org\objenesis\objenesis\2.1\objenesis-2.1.jar;C:\Users\KhoaTran\.m2\repository\org\codehaus\jackson\jackson-core-asl\1.9.13\jackson-core-asl-1.9.13.jar;C:\Users\KhoaTran\.m2\repository\org\codehaus\jackson\jackson-mapper-asl\1.9.13\jackson-mapper-asl-1.9.13.jar;C:\Users\KhoaTran\.m2\repository\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar;C:\Users\KhoaTran\.m2\repository\com\sun\jersey\jersey-core\1.9\jersey-core-1.9.jar;C:\Users\KhoaTran\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\KhoaTran\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\KhoaTran\.m2\repository\org\apache\apex\apex-engine\3.7.0\apex-engine-3.7.0.jar;C:\Users\KhoaTran\.m2\repository\org\apache\bval\bval-jsr303\0.5\bval-jsr303-0.5.jar;C:\Users\KhoaTran\.m2\repository\org\apache\bval\bval-core\0.5\bval-core-0.5.jar;C:\Users\KhoaTran\.m2\repository\org\apache\apex\apex-bufferserver\3.7.0\apex-bufferserver-3.7.0.jar;C:\Users\KhoaTran\.m2\repository\org\apache\httpcomponents\httpclient\4.3.6\httpclient-4.3.6.jar;C:\Users\KhoaTran\.m2\repository\org\apache\httpcomponents\httpcore\4.3.3\httpcore-4.3.3.jar;C:\Users\KhoaTran\.m2\repository\com\sun\jersey\contribs\jersey-apache-client4\1.9\jersey-apache-client4-1.9.jar;C:\Users\KhoaTran\.m2\repository\org\apache\hadoop\hadoop-yarn-client\2.6.0\hadoop-yarn-client-2.6.0.jar;C:\Users\KhoaTran\.m2\repository\com\google\guava\guava\11.0.2\guava-11.0.2.jar;C:\Users\KhoaTran\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\KhoaTran\.m2\repository\commons-cli\commons-cli\1.2\commons-cli-1.2.jar;C:\Users\KhoaTran\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\KhoaTran\.m2\repository\org\apache\hadoop\hadoop-annotations\2.6.0\hadoop-annotations-2.6.0.jar;C:\Program Files\Java\jdk1.8.0_202\jre\..\lib\tools.jar;C:\Users\KhoaTran\.m2\repository\org\apache\hadoop\hadoop-yarn-api\2.6.0\hadoop-yarn-api-2.6.0.jar;C:\Users\KhoaTran\.m2\repository\org\apache\hadoop\hadoop-yarn-common\2.6.0\hadoop-yarn-common-2.6.0.jar;C:\Users\KhoaTran\.m2\repository\javax\xml\bind\jaxb-api\2.2.2\jaxb-api-2.2.2.jar;C:\Users\KhoaTran\.m2\repository\javax\xml\stream\stax-api\1.0-2\stax-api-1.0-2.jar;C:\Users\KhoaTran\.m2\repository\com\google\inject\extensions\guice-servlet\3.0\guice-servlet-3.0.jar;C:\Users\KhoaTran\.m2\repository\com\google\inject\guice\3.0\guice-3.0.jar;C:\Users\KhoaTran\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\KhoaTran\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\KhoaTran\.m2\repository\com\sun\jersey\jersey-server\1.9\jersey-server-1.9.jar;C:\Users\KhoaTran\.m2\repository\asm\asm\3.1\asm-3.1.jar;C:\Users\KhoaTran\.m2\repository\com\sun\jersey\contribs\jersey-guice\1.9\jersey-guice-1.9.jar;C:\Users\KhoaTran\.m2\repository\jline\jline\2.11\jline-2.11.jar;C:\Users\KhoaTran\.m2\repository\org\apache\ant\ant\1.9.2\ant-1.9.2.jar;C:\Users\KhoaTran\.m2\repository\org\apache\ant\ant-launcher\1.9.2\ant-launcher-1.9.2.jar;C:\Users\KhoaTran\.m2\repository\net\engio\mbassador\1.1.9\mbassador-1.1.9.jar;C:\Users\KhoaTran\.m2\repository\net\lingala\zip4j\zip4j\1.3.2\zip4j-1.3.2.jar;C:\Users\KhoaTran\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\KhoaTran\.m2\repository\org\apache\xbean\xbean-asm5-shaded\4.3\xbean-asm5-shaded-4.3.jar;C:\Users\KhoaTran\.m2\repository\org\jctools\jctools-core\1.1\jctools-core-1.1.jar;C:\Users\KhoaTran\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\KhoaTran\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\KhoaTran\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Bangkok"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\KhoaTran\AppData\Local\Temp\surefire4419939445366072778\surefirebooter-20241025010008967_3.jar C:\Users\KhoaTran\AppData\Local\Temp\surefire4419939445366072778 2024-10-25T01-00-08_470-jvmRun1 surefire-20241025010008967_1tmp surefire_0-20241025010008967_2tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\KhoaTran\eclipse-workspace\Khoa\target\test-classes;C:\Users\KhoaTran\eclipse-workspace\Khoa\target\classes;C:\Users\KhoaTran\.m2\repository\org\apache\apex\malhar-library\3.8.0\malhar-library-3.8.0.jar;C:\Users\KhoaTran\.m2\repository\org\eclipse\jetty\jetty-servlet\8.1.10.v20130312\jetty-servlet-8.1.10.v20130312.jar;C:\Users\KhoaTran\.m2\repository\org\eclipse\jetty\jetty-security\8.1.10.v20130312\jetty-security-8.1.10.v20130312.jar;C:\Users\KhoaTran\.m2\repository\org\eclipse\jetty\jetty-server\8.1.10.v20130312\jetty-server-8.1.10.v20130312.jar;C:\Users\KhoaTran\.m2\repository\org\eclipse\jetty\jetty-continuation\8.1.10.v20130312\jetty-continuation-8.1.10.v20130312.jar;C:\Users\KhoaTran\.m2\repository\com\sun\mail\javax.mail\1.5.0\javax.mail-1.5.0.jar;C:\Users\KhoaTran\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\KhoaTran\.m2\repository\com\sun\jersey\jersey-client\1.9\jersey-client-1.9.jar;C:\Users\KhoaTran\.m2\repository\javax\jms\jms-api\1.1-rev-1\jms-api-1.1-rev-1.jar;C:\Users\KhoaTran\.m2\repository\org\apache\activemq\activemq-client\5.8.0\activemq-client-5.8.0.jar;C:\Users\KhoaTran\.m2\repository\org\apache\geronimo\specs\geronimo-jms_1.1_spec\1.1.1\geronimo-jms_1.1_spec-1.1.1.jar;C:\Users\KhoaTran\.m2\repository\org\fusesource\hawtbuf\hawtbuf\1.9\hawtbuf-1.9.jar;C:\Users\KhoaTran\.m2\repository\org\apache\geronimo\specs\geronimo-j2ee-management_1.1_spec\1.0.1\geronimo-j2ee-management_1.1_spec-1.0.1.jar;C:\Users\KhoaTran\.m2\repository\org\slf4j\slf4j-api\1.7.5\slf4j-api-1.7.5.jar;C:\Users\KhoaTran\.m2\repository\com\github\tony19\named-regexp\0.2.3\named-regexp-0.2.3.jar;C:\Users\KhoaTran\.m2\repository\org\apache\commons\commons-lang3\3.1\commons-lang3-3.1.jar;C:\Users\KhoaTran\.m2\repository\org\codehaus\janino\commons-compiler\2.7.8\commons-compiler-2.7.8.jar;C:\Users\KhoaTran\.m2\repository\org\eclipse\jetty\jetty-websocket\8.1.10.v20130312\jetty-websocket-8.1.10.v20130312.jar;C:\Users\KhoaTran\.m2\repository\org\eclipse\jetty\jetty-util\8.1.10.v20130312\jetty-util-8.1.10.v20130312.jar;C:\Users\KhoaTran\.m2\repository\org\eclipse\jetty\jetty-io\8.1.10.v20130312\jetty-io-8.1.10.v20130312.jar;C:\Users\KhoaTran\.m2\repository\org\eclipse\jetty\jetty-http\8.1.10.v20130312\jetty-http-8.1.10.v20130312.jar;C:\Users\KhoaTran\.m2\repository\commons-beanutils\commons-beanutils\1.9.2\commons-beanutils-1.9.2.jar;C:\Users\KhoaTran\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\Users\KhoaTran\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;C:\Users\KhoaTran\.m2\repository\joda-time\joda-time\2.9.1\joda-time-2.9.1.jar;C:\Users\KhoaTran\.m2\repository\it\unimi\dsi\fastutil\7.0.6\fastutil-7.0.6.jar;C:\Users\KhoaTran\.m2\repository\org\jooq\jooq\3.6.4\jooq-3.6.4.jar;C:\Users\KhoaTran\.m2\repository\org\apache\apex\apex-shaded-ning19\1.0.0\apex-shaded-ning19-1.0.0.jar;C:\Users\KhoaTran\.m2\repository\com\amazonaws\aws-java-sdk-s3\1.10.73\aws-java-sdk-s3-1.10.73.jar;C:\Users\KhoaTran\.m2\repository\com\amazonaws\aws-java-sdk-kms\1.10.73\aws-java-sdk-kms-1.10.73.jar;C:\Users\KhoaTran\.m2\repository\com\amazonaws\aws-java-sdk-core\1.10.73\aws-java-sdk-core-1.10.73.jar;C:\Users\KhoaTran\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-cbor\2.5.3\jackson-dataformat-cbor-2.5.3.jar;C:\Users\KhoaTran\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.5.4\jackson-databind-2.5.4.jar;C:\Users\KhoaTran\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.5.0\jackson-annotations-2.5.0.jar;C:\Users\KhoaTran\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.5.4\jackson-core-2.5.4.jar;C:\Users\KhoaTran\.m2\repository\org\apache\apex\apex-common\3.7.0\apex-common-3.7.0.jar;C:\Users\KhoaTran\.m2\repository\org\apache\apex\apex-api\3.7.0\apex-api-3.7.0.jar;C:\Users\KhoaTran\.m2\repository\org\apache\hadoop\hadoop-common\2.6.0\hadoop-common-2.6.0.jar;C:\Users\KhoaTran\.m2\repository\org\apache\commons\commons-math3\3.1.1\commons-math3-3.1.1.jar;C:\Users\KhoaTran\.m2\repository\xmlenc\xmlenc\0.52\xmlenc-0.52.jar;C:\Users\KhoaTran\.m2\repository\commons-httpclient\commons-httpclient\3.1\commons-httpclient-3.1.jar;C:\Users\KhoaTran\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;C:\Users\KhoaTran\.m2\repository\commons-net\commons-net\3.1\commons-net-3.1.jar;C:\Users\KhoaTran\.m2\repository\javax\servlet\servlet-api\2.5\servlet-api-2.5.jar;C:\Users\KhoaTran\.m2\repository\org\mortbay\jetty\jetty\6.1.26\jetty-6.1.26.jar;C:\Users\KhoaTran\.m2\repository\org\mortbay\jetty\jetty-util\6.1.26\jetty-util-6.1.26.jar;C:\Users\KhoaTran\.m2\repository\com\sun\jersey\jersey-json\1.9\jersey-json-1.9.jar;C:\Users\KhoaTran\.m2\repository\org\codehaus\jettison\jettison\1.1\jettison-1.1.jar;C:\Users\KhoaTran\.m2\repository\com\sun\xml\bind\jaxb-impl\2.2.3-1\jaxb-impl-2.2.3-1.jar;C:\Users\KhoaTran\.m2\repository\tomcat\jasper-compiler\5.5.23\jasper-compiler-5.5.23.jar;C:\Users\KhoaTran\.m2\repository\tomcat\jasper-runtime\5.5.23\jasper-runtime-5.5.23.jar;C:\Users\KhoaTran\.m2\repository\javax\servlet\jsp\jsp-api\2.1\jsp-api-2.1.jar;C:\Users\KhoaTran\.m2\repository\commons-el\commons-el\1.0\commons-el-1.0.jar;C:\Users\KhoaTran\.m2\repository\net\java\dev\jets3t\jets3t\0.9.0\jets3t-0.9.0.jar;C:\Users\KhoaTran\.m2\repository\com\jamesmurty\utils\java-xmlbuilder\0.4\java-xmlbuilder-0.4.jar;C:\Users\KhoaTran\.m2\repository\commons-configuration\commons-configuration\1.6\commons-configuration-1.6.jar;C:\Users\KhoaTran\.m2\repository\commons-digester\commons-digester\1.8\commons-digester-1.8.jar;C:\Users\KhoaTran\.m2\repository\org\slf4j\slf4j-log4j12\1.7.5\slf4j-log4j12-1.7.5.jar;C:\Users\KhoaTran\.m2\repository\com\google\protobuf\protobuf-java\2.5.0\protobuf-java-2.5.0.jar;C:\Users\KhoaTran\.m2\repository\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar;C:\Users\KhoaTran\.m2\repository\org\apache\hadoop\hadoop-auth\2.6.0\hadoop-auth-2.6.0.jar;C:\Users\KhoaTran\.m2\repository\org\apache\directory\server\apacheds-kerberos-codec\2.0.0-M15\apacheds-kerberos-codec-2.0.0-M15.jar;C:\Users\KhoaTran\.m2\repository\org\apache\directory\server\apacheds-i18n\2.0.0-M15\apacheds-i18n-2.0.0-M15.jar;C:\Users\KhoaTran\.m2\repository\org\apache\directory\api\api-asn1-api\1.0.0-M20\api-asn1-api-1.0.0-M20.jar;C:\Users\KhoaTran\.m2\repository\org\apache\directory\api\api-util\1.0.0-M20\api-util-1.0.0-M20.jar;C:\Users\KhoaTran\.m2\repository\org\apache\curator\curator-framework\2.6.0\curator-framework-2.6.0.jar;C:\Users\KhoaTran\.m2\repository\com\jcraft\jsch\0.1.42\jsch-0.1.42.jar;C:\Users\KhoaTran\.m2\repository\org\apache\curator\curator-client\2.6.0\curator-client-2.6.0.jar;C:\Users\KhoaTran\.m2\repository\org\apache\curator\curator-recipes\2.6.0\curator-recipes-2.6.0.jar;C:\Users\KhoaTran\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\KhoaTran\.m2\repository\org\htrace\htrace-core\3.0.4\htrace-core-3.0.4.jar;C:\Users\KhoaTran\.m2\repository\org\apache\zookeeper\zookeeper\3.4.6\zookeeper-3.4.6.jar;C:\Users\KhoaTran\.m2\repository\io\netty\netty\3.7.0.Final\netty-3.7.0.Final.jar;C:\Users\KhoaTran\.m2\repository\org\apache\commons\commons-compress\1.4.1\commons-compress-1.4.1.jar;C:\Users\KhoaTran\.m2\repository\org\tukaani\xz\1.0\xz-1.0.jar;C:\Users\KhoaTran\.m2\repository\com\datatorrent\netlet\1.3.2\netlet-1.3.2.jar;C:\Users\KhoaTran\.m2\repository\com\esotericsoftware\kryo\kryo\2.24.0\kryo-2.24.0.jar;C:\Users\KhoaTran\.m2\repository\com\esotericsoftware\minlog\minlog\1.2\minlog-1.2.jar;C:\Users\KhoaTran\.m2\repository\org\objenesis\objenesis\2.1\objenesis-2.1.jar;C:\Users\KhoaTran\.m2\repository\org\codehaus\jackson\jackson-core-asl\1.9.13\jackson-core-asl-1.9.13.jar;C:\Users\KhoaTran\.m2\repository\org\codehaus\jackson\jackson-mapper-asl\1.9.13\jackson-mapper-asl-1.9.13.jar;C:\Users\KhoaTran\.m2\repository\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar;C:\Users\KhoaTran\.m2\repository\com\sun\jersey\jersey-core\1.9\jersey-core-1.9.jar;C:\Users\KhoaTran\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\KhoaTran\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\KhoaTran\.m2\repository\org\apache\apex\apex-engine\3.7.0\apex-engine-3.7.0.jar;C:\Users\KhoaTran\.m2\repository\org\apache\bval\bval-jsr303\0.5\bval-jsr303-0.5.jar;C:\Users\KhoaTran\.m2\repository\org\apache\bval\bval-core\0.5\bval-core-0.5.jar;C:\Users\KhoaTran\.m2\repository\org\apache\apex\apex-bufferserver\3.7.0\apex-bufferserver-3.7.0.jar;C:\Users\KhoaTran\.m2\repository\org\apache\httpcomponents\httpclient\4.3.6\httpclient-4.3.6.jar;C:\Users\KhoaTran\.m2\repository\org\apache\httpcomponents\httpcore\4.3.3\httpcore-4.3.3.jar;C:\Users\KhoaTran\.m2\repository\com\sun\jersey\contribs\jersey-apache-client4\1.9\jersey-apache-client4-1.9.jar;C:\Users\KhoaTran\.m2\repository\org\apache\hadoop\hadoop-yarn-client\2.6.0\hadoop-yarn-client-2.6.0.jar;C:\Users\KhoaTran\.m2\repository\com\google\guava\guava\11.0.2\guava-11.0.2.jar;C:\Users\KhoaTran\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\KhoaTran\.m2\repository\commons-cli\commons-cli\1.2\commons-cli-1.2.jar;C:\Users\KhoaTran\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\KhoaTran\.m2\repository\org\apache\hadoop\hadoop-annotations\2.6.0\hadoop-annotations-2.6.0.jar;C:\Program Files\Java\jdk1.8.0_202\jre\..\lib\tools.jar;C:\Users\KhoaTran\.m2\repository\org\apache\hadoop\hadoop-yarn-api\2.6.0\hadoop-yarn-api-2.6.0.jar;C:\Users\KhoaTran\.m2\repository\org\apache\hadoop\hadoop-yarn-common\2.6.0\hadoop-yarn-common-2.6.0.jar;C:\Users\KhoaTran\.m2\repository\javax\xml\bind\jaxb-api\2.2.2\jaxb-api-2.2.2.jar;C:\Users\KhoaTran\.m2\repository\javax\xml\stream\stax-api\1.0-2\stax-api-1.0-2.jar;C:\Users\KhoaTran\.m2\repository\com\google\inject\extensions\guice-servlet\3.0\guice-servlet-3.0.jar;C:\Users\KhoaTran\.m2\repository\com\google\inject\guice\3.0\guice-3.0.jar;C:\Users\KhoaTran\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\KhoaTran\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\KhoaTran\.m2\repository\com\sun\jersey\jersey-server\1.9\jersey-server-1.9.jar;C:\Users\KhoaTran\.m2\repository\asm\asm\3.1\asm-3.1.jar;C:\Users\KhoaTran\.m2\repository\com\sun\jersey\contribs\jersey-guice\1.9\jersey-guice-1.9.jar;C:\Users\KhoaTran\.m2\repository\jline\jline\2.11\jline-2.11.jar;C:\Users\KhoaTran\.m2\repository\org\apache\ant\ant\1.9.2\ant-1.9.2.jar;C:\Users\KhoaTran\.m2\repository\org\apache\ant\ant-launcher\1.9.2\ant-launcher-1.9.2.jar;C:\Users\KhoaTran\.m2\repository\net\engio\mbassador\1.1.9\mbassador-1.1.9.jar;C:\Users\KhoaTran\.m2\repository\net\lingala\zip4j\zip4j\1.3.2\zip4j-1.3.2.jar;C:\Users\KhoaTran\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\KhoaTran\.m2\repository\org\apache\xbean\xbean-asm5-shaded\4.3\xbean-asm5-shaded-4.3.jar;C:\Users\KhoaTran\.m2\repository\org\jctools\jctools-core\1.1\jctools-core-1.1.jar;C:\Users\KhoaTran\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\KhoaTran\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\KhoaTran\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\KhoaTran"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_202\jre"/>
+    <property name="basedir" value="C:\Users\KhoaTran\eclipse-workspace\Khoa"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\KhoaTran\AppData\Local\Temp\surefire4419939445366072778\surefirebooter-20241025010008967_3.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_202\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_202-b08"/>
+    <property name="user.name" value="KhoaTran"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\KhoaTran\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\KhoaTran\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_202"/>
+    <property name="user.dir" value="C:\Users\KhoaTran\eclipse-workspace\Khoa"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Automation\apache-maven-3.9.8-bin\apache-maven-3.9.8\bin;C:\Users\KhoaTran\AppData\Local\Microsoft\WindowsApps;C:\AppTest\VSCode\Microsoft VS Code\bin;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.202-b08"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="testApplication on testApplication(MavenProject.Khoa.ApplicationTest)" classname="MavenProject.Khoa.ApplicationTest" time="0.565">
+    <failure message="Error creating local cluster" type="java.lang.RuntimeException"><![CDATA[java.lang.RuntimeException: Error creating local cluster
+	at org.apache.apex.engine.EmbeddedAppLauncherImpl.getController(EmbeddedAppLauncherImpl.java:122)
+	at org.apache.apex.engine.EmbeddedAppLauncherImpl.getController(EmbeddedAppLauncherImpl.java:46)
+	at MavenProject.Khoa.ApplicationTest.testApplication(ApplicationTest.java:30)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:45)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:42)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:68)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:157)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:136)
+	at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:81)
+	at org.testng.junit.JUnit4TestRunner.run(JUnit4TestRunner.java:66)
+	at org.testng.TestRunner$1.run(TestRunner.java:672)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.testng.TestRunner.runJUnitWorkers(TestRunner.java:871)
+	at org.testng.TestRunner.privateRunJUnit(TestRunner.java:701)
+	at org.testng.TestRunner.run(TestRunner.java:594)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: java.lang.NullPointerException
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1012)
+	at org.apache.hadoop.util.Shell.runCommand(Shell.java:482)
+	at org.apache.hadoop.util.Shell.run(Shell.java:455)
+	at org.apache.hadoop.util.Shell$ShellCommandExecutor.execute(Shell.java:715)
+	at org.apache.hadoop.util.Shell.execCommand(Shell.java:808)
+	at org.apache.hadoop.util.Shell.execCommand(Shell.java:791)
+	at org.apache.hadoop.fs.RawLocalFileSystem.setPermission(RawLocalFileSystem.java:656)
+	at org.apache.hadoop.fs.RawLocalFileSystem.create(RawLocalFileSystem.java:298)
+	at org.apache.hadoop.fs.FileSystem.primitiveCreate(FileSystem.java:1014)
+	at org.apache.hadoop.fs.DelegateToFileSystem.createInternal(DelegateToFileSystem.java:85)
+	at org.apache.hadoop.fs.ChecksumFs$ChecksumFSOutputSummer.<init>(ChecksumFs.java:347)
+	at org.apache.hadoop.fs.ChecksumFs.createInternal(ChecksumFs.java:394)
+	at org.apache.hadoop.fs.AbstractFileSystem.create(AbstractFileSystem.java:577)
+	at org.apache.hadoop.fs.FileContext$3.next(FileContext.java:680)
+	at org.apache.hadoop.fs.FileContext$3.next(FileContext.java:676)
+	at org.apache.hadoop.fs.FSLinkResolver.resolve(FSLinkResolver.java:90)
+	at org.apache.hadoop.fs.FileContext.create(FileContext.java:676)
+	at com.datatorrent.common.util.AsyncFSStorageAgent.copyToHDFS(AsyncFSStorageAgent.java:119)
+	at com.datatorrent.common.util.AsyncFSStorageAgent.flush(AsyncFSStorageAgent.java:156)
+	at com.datatorrent.stram.plan.physical.PhysicalPlan.initCheckpoint(PhysicalPlan.java:1285)
+	at com.datatorrent.stram.plan.physical.PhysicalPlan.<init>(PhysicalPlan.java:548)
+	at com.datatorrent.stram.StreamingContainerManager.<init>(StreamingContainerManager.java:430)
+	at com.datatorrent.stram.StreamingContainerManager.<init>(StreamingContainerManager.java:418)
+	at com.datatorrent.stram.StramLocalCluster.<init>(StramLocalCluster.java:314)
+	at org.apache.apex.engine.EmbeddedAppLauncherImpl.getController(EmbeddedAppLauncherImpl.java:120)
+	... 46 more
+]]></failure>
+    <system-out><![CDATA[2024-10-25 01:00:09,779 [main] DEBUG logical.LogicalPlanConfiguration <clinit> - Initialized attributes 6637095478751
+2024-10-25 01:00:09,858 [main] DEBUG logical.LogicalPlanConfiguration buildAttributeMaps - context class interface com.datatorrent.api.Context$OperatorContext and attributes [Attribute{defaultValue=1, name=com.datatorrent.api.Context.OperatorContext.APPLICATION_WINDOW_COUNT, codec=com.datatorrent.api.StringCodec$Integer2String@222114ba}, Attribute{defaultValue=false, name=com.datatorrent.api.Context.OperatorContext.STATELESS, codec=com.datatorrent.api.StringCodec$Boolean2String@16e7dcfd}, Attribute{defaultValue=0, name=com.datatorrent.api.Context.OperatorContext.VCORES, codec=com.datatorrent.api.StringCodec$Integer2String@222114ba}, Attribute{defaultValue=AT_LEAST_ONCE, name=com.datatorrent.api.Context.OperatorContext.PROCESSING_MODE, codec=com.datatorrent.api.StringCodec$Enum2String@3d121db3}, Attribute{defaultValue=null, name=com.datatorrent.api.Context.OperatorContext.COUNTERS_AGGREGATOR, codec=com.datatorrent.api.StringCodec$Object2String@3b07a0d6}, Attribute{defaultValue=null, name=com.datatorrent.api.Context.OperatorContext.JVM_OPTIONS, codec=com.datatorrent.api.StringCodec$String2String@11a9e7c8}, Attribute{defaultValue=null, name=com.datatorrent.api.Context.OperatorContext.METRICS_DIMENSIONS_SCHEME, codec=com.datatorrent.api.StringCodec$Object2String@3b07a0d6}, Attribute{defaultValue=null, name=com.datatorrent.api.Context.OperatorContext.PARTITIONER, codec=com.datatorrent.api.StringCodec$Object2String@3b07a0d6}, Attribute{defaultValue=-1, name=com.datatorrent.api.Context.OperatorContext.ACTIVATION_WINDOW_ID, codec=com.datatorrent.api.StringCodec$Long2String@3901d134}, Attribute{defaultValue=null, name=com.datatorrent.api.Context.OperatorContext.STORAGE_AGENT, codec=com.datatorrent.api.StringCodec$Object2String@3b07a0d6}, Attribute{defaultValue=null, name=com.datatorrent.api.Context.OperatorContext.LOCALITY_HOST, codec=com.datatorrent.api.StringCodec$String2String@11a9e7c8}, Attribute{defaultValue=false, name=com.datatorrent.api.Context.OperatorContext.AUTO_RECORD, codec=com.datatorrent.api.StringCodec$Boolean2String@16e7dcfd}, Attribute{defaultValue=1024, name=com.datatorrent.api.Context.OperatorContext.MEMORY_MB, codec=com.datatorrent.api.StringCodec$Integer2String@222114ba}, Attribute{defaultValue=null, name=com.datatorrent.api.Context.OperatorContext.LOCALITY_RACK, codec=com.datatorrent.api.StringCodec$String2String@11a9e7c8}, Attribute{defaultValue=null, name=com.datatorrent.api.Context.OperatorContext.SLIDE_BY_WINDOW_COUNT, codec=com.datatorrent.api.StringCodec$Integer2String@222114ba}, Attribute{defaultValue=1, name=com.datatorrent.api.Context.OperatorContext.CHECKPOINT_WINDOW_COUNT, codec=com.datatorrent.api.StringCodec$Integer2String@222114ba}, Attribute{defaultValue=120, name=com.datatorrent.api.Context.OperatorContext.TIMEOUT_WINDOW_COUNT, codec=com.datatorrent.api.StringCodec$Integer2String@222114ba}, Attribute{defaultValue=null, name=com.datatorrent.api.Context.OperatorContext.RECOVERY_ATTEMPTS, codec=com.datatorrent.api.StringCodec$Integer2String@222114ba}, Attribute{defaultValue=10, name=com.datatorrent.api.Context.OperatorContext.SPIN_MILLIS, codec=com.datatorrent.api.StringCodec$Integer2String@222114ba}, Attribute{defaultValue=null, name=com.datatorrent.api.Context.OperatorContext.STATS_LISTENERS, codec=com.datatorrent.api.StringCodec$Collection2String@14d3bc22}, Attribute{defaultValue=null, name=com.datatorrent.api.Context.OperatorContext.METRICS_AGGREGATOR, codec=com.datatorrent.api.StringCodec$Object2String@3b07a0d6}]
+2024-10-25 01:00:09,860 [main] DEBUG logical.LogicalPlanConfiguration buildAttributeMaps - context class interface com.datatorrent.api.Context$PortContext and attributes [Attribute{defaultValue=2147483647, name=com.datatorrent.api.Context.PortContext.UNIFIER_LIMIT, codec=com.datatorrent.api.StringCodec$Integer2String@222114ba}, Attribute{defaultValue=false, name=com.datatorrent.api.Context.PortContext.AUTO_RECORD, codec=com.datatorrent.api.StringCodec$Boolean2String@16e7dcfd}, Attribute{defaultValue=false, name=com.datatorrent.api.Context.PortContext.IS_OUTPUT_UNIFIED, codec=com.datatorrent.api.StringCodec$Boolean2String@16e7dcfd}, Attribute{defaultValue=false, name=com.datatorrent.api.Context.PortContext.PARTITION_PARALLEL, codec=com.datatorrent.api.StringCodec$Boolean2String@16e7dcfd}, Attribute{defaultValue=1024, name=com.datatorrent.api.Context.PortContext.QUEUE_CAPACITY, codec=com.datatorrent.api.StringCodec$Integer2String@222114ba}, Attribute{defaultValue=10, name=com.datatorrent.api.Context.PortContext.SPIN_MILLIS, codec=com.datatorrent.api.StringCodec$Integer2String@222114ba}, Attribute{defaultValue=512, name=com.datatorrent.api.Context.PortContext.BUFFER_MEMORY_MB, codec=com.datatorrent.api.StringCodec$Integer2String@222114ba}, Attribute{defaultValue=false, name=com.datatorrent.api.Context.PortContext.UNIFIER_SINGLE_FINAL, codec=com.datatorrent.api.StringCodec$Boolean2String@16e7dcfd}, Attribute{defaultValue=null, name=com.datatorrent.api.Context.PortContext.STREAM_CODEC, codec=com.datatorrent.api.StringCodec$Object2String@3b07a0d6}, Attribute{defaultValue=null, name=com.datatorrent.api.Context.PortContext.TUPLE_CLASS, codec=com.datatorrent.api.StringCodec$Class2String@7b227d8d}]
+2024-10-25 01:00:09,861 [main] DEBUG logical.LogicalPlanConfiguration buildAttributeMaps - context class interface com.datatorrent.api.Context$DAGContext and attributes [Attribute{defaultValue=30, name=com.datatorrent.api.Context.DAGContext.HEARTBEAT_LISTENER_THREAD_COUNT, codec=com.datatorrent.api.StringCodec$Integer2String@222114ba}, Attribute{defaultValue=false, name=com.datatorrent.api.Context.DAGContext.DEBUG, codec=com.datatorrent.api.StringCodec$Boolean2String@16e7dcfd}, Attribute{defaultValue=FOLLOW_HADOOP_AUTH, name=com.datatorrent.api.Context.DAGContext.STRAM_HTTP_AUTHENTICATION, codec=com.datatorrent.api.StringCodec$Enum2String@7219ec67}, Attribute{defaultValue=2147483647, name=com.datatorrent.api.Context.DAGContext.MAX_CONSECUTIVE_CONTAINER_FAILURES_FOR_BLACKLIST, codec=com.datatorrent.api.StringCodec$Integer2String@222114ba}, Attribute{defaultValue=500, name=com.datatorrent.api.Context.DAGContext.STREAMING_WINDOW_SIZE_MILLIS, codec=com.datatorrent.api.StringCodec$Integer2String@222114ba}, Attribute{defaultValue=null, name=com.datatorrent.api.Context.DAGContext.CONTAINER_OPTS_CONFIGURATOR, codec=com.datatorrent.api.StringCodec$Object2String@3b07a0d6}, Attribute{defaultValue=null, name=com.datatorrent.api.Context.DAGContext.APPLICATION_PATH, codec=com.datatorrent.api.StringCodec$String2String@11a9e7c8}, Attribute{defaultValue=1000, name=com.datatorrent.api.Context.DAGContext.HEARTBEAT_INTERVAL_MILLIS, codec=com.datatorrent.api.StringCodec$Integer2String@222114ba}, Attribute{defaultValue=2147483647, name=com.datatorrent.api.Context.DAGContext.RESOURCE_ALLOCATION_TIMEOUT_MILLIS, codec=com.datatorrent.api.StringCodec$Integer2String@222114ba}, Attribute{defaultValue=false, name=com.datatorrent.api.Context.DAGContext.ENABLE_STATS_RECORDING, codec=com.datatorrent.api.StringCodec$Boolean2String@16e7dcfd}, Attribute{defaultValue=null, name=com.datatorrent.api.Context.DAGContext.STRING_CODECS, codec=com.datatorrent.api.StringCodec$Map2String@45018215}, Attribute{defaultValue=null, name=com.datatorrent.api.Context.DAGContext.APP_PACKAGE_SOURCE, codec=com.datatorrent.api.StringCodec$String2String@11a9e7c8}, Attribute{defaultValue=1000, name=com.datatorrent.api.Context.DAGContext.THROUGHPUT_CALCULATION_MAX_SAMPLES, codec=com.datatorrent.api.StringCodec$Integer2String@222114ba}, Attribute{defaultValue=100, name=com.datatorrent.api.Context.DAGContext.RPC_LATENCY_COMPENSATION_SAMPLES, codec=com.datatorrent.api.StringCodec$Integer2String@222114ba}, Attribute{defaultValue=null, name=com.datatorrent.api.Context.DAGContext.GATEWAY_PASSWORD, codec=com.datatorrent.api.StringCodec$String2String@11a9e7c8}, Attribute{defaultValue=60, name=com.datatorrent.api.Context.DAGContext.CHECKPOINT_WINDOW_COUNT, codec=com.datatorrent.api.StringCodec$Integer2String@222114ba}, Attribute{defaultValue=null, name=com.datatorrent.api.Context.DAGContext.LOGGER_APPENDER, codec=com.datatorrent.api.StringCodec$String2String@11a9e7c8}, Attribute{defaultValue=10000, name=com.datatorrent.api.Context.DAGContext.THROUGHPUT_CALCULATION_INTERVAL, codec=com.datatorrent.api.StringCodec$Integer2String@222114ba}, Attribute{defaultValue=30000, name=com.datatorrent.api.Context.DAGContext.HEARTBEAT_TIMEOUT_MILLIS, codec=com.datatorrent.api.StringCodec$Integer2String@222114ba}, Attribute{defaultValue=1000, name=com.datatorrent.api.Context.DAGContext.STATS_MAX_ALLOWABLE_WINDOWS_LAG, codec=com.datatorrent.api.StringCodec$Integer2String@222114ba}, Attribute{defaultValue=null, name=com.datatorrent.api.Context.DAGContext.METRICS_TRANSPORT, codec=com.datatorrent.api.StringCodec$Object2String@3b07a0d6}, Attribute{defaultValue=unknown-application-name, name=com.datatorrent.api.Context.DAGContext.APPLICATION_NAME, codec=com.datatorrent.api.StringCodec$String2String@11a9e7c8}, Attribute{defaultValue=1024, name=com.datatorrent.api.Context.DAGContext.MASTER_MEMORY_MB, codec=com.datatorrent.api.StringCodec$Integer2String@222114ba}, Attribute{defaultValue=500, name=com.datatorrent.api.Context.DAGContext.PUBSUB_CONNECT_TIMEOUT_MILLIS, codec=com.datatorrent.api.StringCodec$Integer2String@222114ba}, Attribute{defaultValue=131072, name=com.datatorrent.api.Context.DAGContext.TUPLE_RECORDING_PART_FILE_SIZE, codec=com.datatorrent.api.StringCodec$Integer2String@222114ba}, Attribute{defaultValue=null, name=com.datatorrent.api.Context.DAGContext.AFFINITY_RULES_SET, codec=com.datatorrent.api.StringCodec$JsonStringCodec@65d6b83b}, Attribute{defaultValue=null, name=com.datatorrent.api.Context.DAGContext.GATEWAY_USER_NAME, codec=com.datatorrent.api.StringCodec$String2String@11a9e7c8}, Attribute{defaultValue=null, name=com.datatorrent.api.Context.DAGContext.APPLICATION_DOC_LINK, codec=com.datatorrent.api.StringCodec$String2String@11a9e7c8}, Attribute{defaultValue=null, name=com.datatorrent.api.Context.DAGContext.APPLICATION_DATA_LINK, codec=com.datatorrent.api.StringCodec$String2String@11a9e7c8}, Attribute{defaultValue=null, name=com.datatorrent.api.Context.DAGContext.CONTAINER_JVM_OPTIONS, codec=com.datatorrent.api.StringCodec$String2String@11a9e7c8}, Attribute{defaultValue=null, name=com.datatorrent.api.Context.DAGContext.GATEWAY_CONNECT_ADDRESS, codec=com.datatorrent.api.StringCodec$String2String@11a9e7c8}, Attribute{defaultValue=false, name=com.datatorrent.api.Context.DAGContext.GATEWAY_USE_SSL, codec=com.datatorrent.api.StringCodec$Boolean2String@16e7dcfd}, Attribute{defaultValue=null, name=com.datatorrent.api.Context.DAGContext.APPLICATION_ID, codec=com.datatorrent.api.StringCodec$String2String@11a9e7c8}, Attribute{defaultValue=108000000, name=com.datatorrent.api.Context.DAGContext.TUPLE_RECORDING_PART_FILE_TIME_MILLIS, codec=com.datatorrent.api.StringCodec$Integer2String@222114ba}, Attribute{defaultValue=3600000, name=com.datatorrent.api.Context.DAGContext.BLACKLISTED_NODE_REMOVAL_TIME_MILLIS, codec=com.datatorrent.api.StringCodec$Long2String@3901d134}, Attribute{defaultValue=true, name=com.datatorrent.api.Context.DAGContext.BUFFER_SPOOLING, codec=com.datatorrent.api.StringCodec$Boolean2String@16e7dcfd}, Attribute{defaultValue=null, name=com.datatorrent.api.Context.DAGContext.LIBRARY_JARS, codec=com.datatorrent.api.StringCodec$String2String@11a9e7c8}, Attribute{defaultValue=null, name=com.datatorrent.api.Context.DAGContext.SSL_CONFIG, codec=com.datatorrent.api.StringCodec$JsonStringCodec@d706f19}]
+2024-10-25 01:00:09,882 [main] DEBUG logical.LogicalPlan <init> - Initializing randomGenerator as MavenProject.Khoa.RandomNumberGenerator
+2024-10-25 01:00:09,884 [main] DEBUG logical.LogicalPlan <init> - Initializing console as com.datatorrent.lib.io.ConsoleOutputOperator
+2024-10-25 01:00:10,044 [main] DEBUG stram.StramLocalCluster cloneLogicalPlan - serialized size: 4143
+2024-10-25 01:00:10,140 [main] WARN  util.NativeCodeLoader <clinit> - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2024-10-25 01:00:10,144 [main] ERROR util.Shell getWinUtilsPath - Failed to locate the winutils binary in the hadoop binary path
+java.io.IOException: Could not locate executable null\bin\winutils.exe in the Hadoop binaries.
+	at org.apache.hadoop.util.Shell.getQualifiedBinPath(Shell.java:355)
+	at org.apache.hadoop.util.Shell.getWinUtilsPath(Shell.java:370)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:363)
+	at org.apache.hadoop.util.StringUtils.<clinit>(StringUtils.java:79)
+	at org.apache.hadoop.security.Groups.parseStaticMapping(Groups.java:104)
+	at org.apache.hadoop.security.Groups.<init>(Groups.java:86)
+	at org.apache.hadoop.security.Groups.<init>(Groups.java:66)
+	at org.apache.hadoop.security.Groups.getUserToGroupsMappingService(Groups.java:280)
+	at org.apache.hadoop.security.UserGroupInformation.initialize(UserGroupInformation.java:271)
+	at org.apache.hadoop.security.UserGroupInformation.ensureInitialized(UserGroupInformation.java:248)
+	at org.apache.hadoop.security.UserGroupInformation.loginUserFromSubject(UserGroupInformation.java:763)
+	at org.apache.hadoop.security.UserGroupInformation.getLoginUser(UserGroupInformation.java:748)
+	at org.apache.hadoop.security.UserGroupInformation.getCurrentUser(UserGroupInformation.java:621)
+	at org.apache.hadoop.fs.FileContext.getFileContext(FileContext.java:447)
+	at org.apache.hadoop.fs.FileContext.getFileContext(FileContext.java:425)
+	at org.apache.hadoop.fs.FileContext.getLocalFSFileContext(FileContext.java:411)
+	at com.datatorrent.stram.StramLocalCluster.<init>(StramLocalCluster.java:303)
+	at org.apache.apex.engine.EmbeddedAppLauncherImpl.getController(EmbeddedAppLauncherImpl.java:120)
+	at org.apache.apex.engine.EmbeddedAppLauncherImpl.getController(EmbeddedAppLauncherImpl.java:46)
+	at MavenProject.Khoa.ApplicationTest.testApplication(ApplicationTest.java:30)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:45)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:42)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:68)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:157)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:136)
+	at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:81)
+	at org.testng.junit.JUnit4TestRunner.run(JUnit4TestRunner.java:66)
+	at org.testng.TestRunner$1.run(TestRunner.java:672)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.testng.TestRunner.runJUnitWorkers(TestRunner.java:871)
+	at org.testng.TestRunner.privateRunJUnit(TestRunner.java:701)
+	at org.testng.TestRunner.run(TestRunner.java:594)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+2024-10-25 01:00:10,177 [main] DEBUG util.FSStorageAgent <init> - Initialize storage agent with file:/C:/Users/KhoaTran/eclipse-workspace/Khoa/target/com.datatorrent.stram.StramLocalCluster/checkpoints.
+2024-10-25 01:00:10,221 [main] DEBUG physical.PhysicalPlan <init> - Max containers: 2147483647
+2024-10-25 01:00:10,227 [main] DEBUG physical.PhysicalPlan updateStreamMappings - update stream mapping for OperatorMeta{name=randomGenerator, operator=RandomNumberGenerator{name=null}, attributes={}} out
+2024-10-25 01:00:10,228 [main] DEBUG physical.PhysicalPlan updateStreamMappings - update upstream stream mapping for OperatorMeta{name=randomGenerator, operator=RandomNumberGenerator{name=null}, attributes={}} out
+2024-10-25 01:00:10,228 [main] DEBUG physical.PhysicalPlan <init> - Operator console Partition 2 CONTAINER LOCAL Operator set  = console,randomGenerator
+2024-10-25 01:00:10,230 [main] DEBUG physical.PhysicalPlan <init> - Operator console Partition 2 NODE LOCAL Operator set  = console
+2024-10-25 01:00:10,230 [main] DEBUG physical.PhysicalPlan <init> - Operator randomGenerator Partition 1 CONTAINER LOCAL Operator set  = console,randomGenerator
+2024-10-25 01:00:10,230 [main] DEBUG physical.PhysicalPlan <init> - Operator randomGenerator Partition 1 NODE LOCAL Operator set  = randomGenerator
+2024-10-25 01:00:10,237 [main] DEBUG physical.PhysicalPlan setContainer - Setting container PTContainer[id=1(null),state=NEW,operators=[]] for PTOperator[id=2,name=console,state=INACTIVE]
+2024-10-25 01:00:10,237 [main] DEBUG physical.PhysicalPlan setContainer - Setting container PTContainer[id=1(null),state=NEW,operators=[PTOperator[id=2,name=console,state=INACTIVE]]] for PTOperator[id=1,name=randomGenerator,state=INACTIVE]
+2024-10-25 01:00:10,237 [main] DEBUG physical.PhysicalPlan <init> - Container with operators [console,randomGenerator] has anti affinity with []
+2024-10-25 01:00:10,237 [main] DEBUG physical.PhysicalPlan initCheckpoint - Writing activation checkpoint {ffffffffffffffff, 0, 0} PTOperator[id=2,name=console,state=INACTIVE] ConsoleOutputOperator{name=null}
+2024-10-25 01:00:10,238 [main] INFO  util.AsyncFSStorageAgent save - using C:\Users\KhoaTran\AppData\Local\Temp\chkp2321126218515998193 as the basepath for checkpointing.
+2024-10-25 01:00:10,249 [main] DEBUG util.AsyncFSStorageAgent copyToHDFS - while saving 2 ffffffffffffffff
+java.lang.NullPointerException
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1012)
+	at org.apache.hadoop.util.Shell.runCommand(Shell.java:482)
+	at org.apache.hadoop.util.Shell.run(Shell.java:455)
+	at org.apache.hadoop.util.Shell$ShellCommandExecutor.execute(Shell.java:715)
+	at org.apache.hadoop.util.Shell.execCommand(Shell.java:808)
+	at org.apache.hadoop.util.Shell.execCommand(Shell.java:791)
+	at org.apache.hadoop.fs.RawLocalFileSystem.setPermission(RawLocalFileSystem.java:656)
+	at org.apache.hadoop.fs.RawLocalFileSystem.create(RawLocalFileSystem.java:298)
+	at org.apache.hadoop.fs.FileSystem.primitiveCreate(FileSystem.java:1014)
+	at org.apache.hadoop.fs.DelegateToFileSystem.createInternal(DelegateToFileSystem.java:85)
+	at org.apache.hadoop.fs.ChecksumFs$ChecksumFSOutputSummer.<init>(ChecksumFs.java:347)
+	at org.apache.hadoop.fs.ChecksumFs.createInternal(ChecksumFs.java:394)
+	at org.apache.hadoop.fs.AbstractFileSystem.create(AbstractFileSystem.java:577)
+	at org.apache.hadoop.fs.FileContext$3.next(FileContext.java:680)
+	at org.apache.hadoop.fs.FileContext$3.next(FileContext.java:676)
+	at org.apache.hadoop.fs.FSLinkResolver.resolve(FSLinkResolver.java:90)
+	at org.apache.hadoop.fs.FileContext.create(FileContext.java:676)
+	at com.datatorrent.common.util.AsyncFSStorageAgent.copyToHDFS(AsyncFSStorageAgent.java:119)
+	at com.datatorrent.common.util.AsyncFSStorageAgent.flush(AsyncFSStorageAgent.java:156)
+	at com.datatorrent.stram.plan.physical.PhysicalPlan.initCheckpoint(PhysicalPlan.java:1285)
+	at com.datatorrent.stram.plan.physical.PhysicalPlan.<init>(PhysicalPlan.java:548)
+	at com.datatorrent.stram.StreamingContainerManager.<init>(StreamingContainerManager.java:430)
+	at com.datatorrent.stram.StreamingContainerManager.<init>(StreamingContainerManager.java:418)
+	at com.datatorrent.stram.StramLocalCluster.<init>(StramLocalCluster.java:314)
+	at org.apache.apex.engine.EmbeddedAppLauncherImpl.getController(EmbeddedAppLauncherImpl.java:120)
+	at org.apache.apex.engine.EmbeddedAppLauncherImpl.getController(EmbeddedAppLauncherImpl.java:46)
+	at MavenProject.Khoa.ApplicationTest.testApplication(ApplicationTest.java:30)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:45)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:42)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:68)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:157)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:136)
+	at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:81)
+	at org.testng.junit.JUnit4TestRunner.run(JUnit4TestRunner.java:66)
+	at org.testng.TestRunner$1.run(TestRunner.java:672)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.testng.TestRunner.runJUnitWorkers(TestRunner.java:871)
+	at org.testng.TestRunner.privateRunJUnit(TestRunner.java:701)
+	at org.testng.TestRunner.run(TestRunner.java:594)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></system-out>
+  </testcase>
+</testsuite>
