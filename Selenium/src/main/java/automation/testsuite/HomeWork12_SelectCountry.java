@@ -25,5 +25,17 @@ public class HomeWork12_SelectCountry extends CommonBase {
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		String text = selectCountryDropdownList.getFirstSelectedOption().getText();
 		System.out.println("What is selected? " + text);
+		
+		Select selectCountryDropdownList1 = new Select(driver.findElement(By.xpath("//select")));
+		selectCountryDropdownList1.selectByValue("VNM");
+		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+		String text1 = selectCountryDropdownList1.getFirstSelectedOption().getText();
+		System.out.println("What is selected? " + text1);
+		
+		Select selectCountryDropdownList2 = new Select(driver.findElement(By.xpath("//select")));
+		selectCountryDropdownList2.selectByIndex(17);
+		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+		String text2 = selectCountryDropdownList2.getFirstSelectedOption().getText();
+		System.out.println("What is selected? " + text2);
 	}
 }
