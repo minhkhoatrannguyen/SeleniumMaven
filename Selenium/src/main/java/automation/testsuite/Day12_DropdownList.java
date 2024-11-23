@@ -17,24 +17,30 @@ public class Day12_DropdownList extends CommonBase {
 	public void openWebPage() {
 		driver = initChromeDriver(CT_PageURL.codeStarAWS);
 	}
-	
+
 	@Test
 	public void chooseVietnamOption() {
-		Select countryDropdownList = new Select(driver.findElement(By.xpath("//select[@id='product_categories_filter']")));
+		Select countryDropdownList = new Select(
+				driver.findElement(By.xpath("//select[@id='product_categories_filter']")));
 		countryDropdownList.selectByVisibleText(" Kiểm thử");
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		String text = countryDropdownList.getFirstSelectedOption().getText();
 		System.out.println("Is Kiem Thu selected? " + text);
-		
+
 		countryDropdownList.selectByValue("https://codestar.vn/product-category/programming/");
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		String text1 = countryDropdownList.getFirstSelectedOption().getText();
 		System.out.println("Is Kiem Thu selected? " + text1);
-		
+
 		countryDropdownList.selectByIndex(0);
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		String text2 = countryDropdownList.getFirstSelectedOption().getText();
 		System.out.println("Is Kiem Thu selected? " + text2);
 	}
-	
+
+	@AfterMethod
+	public void closeWebPage() {
+		driver.close();
+	}
+
 }
