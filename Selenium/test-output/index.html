@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\KhoaTran\AppData\Local\Temp\testng-eclipse--1561358789\testng-customsuite.xml</span>
+                    <span>C:\Users\KhoaTran\AppData\Local\Temp\testng-eclipse--1923963201\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -104,7 +104,7 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="automation.testsuite.CodeStar_LoginTest" class="method navigator-link" hash-for-method="TC5_Logout">TC5_Logout</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="automation.testsuite.Alada_ChangePasswordTest" class="method navigator-link" hash-for-method="TC1_ChangePasswordSuccessfully">TC1_ChangePasswordSuccessfully</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -122,14 +122,14 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">automation.testsuite.CodeStar_LoginTest</span>
+              <span class="class-name">automation.testsuite.Alada_ChangePasswordTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="TC5_Logout">
-                  </a> <!-- TC5_Logout -->
-                  <span class="method-name">TC5_Logout</span>
+                  <a name="TC1_ChangePasswordSuccessfully">
+                  </a> <!-- TC1_ChangePasswordSuccessfully -->
+                  <span class="method-name">TC1_ChangePasswordSuccessfully</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -137,7 +137,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\KhoaTran\AppData\Local\Temp\testng-eclipse--1561358789\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\KhoaTran\AppData\Local\Temp\testng-eclipse--1923963201\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -146,7 +146,11 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;automation.testsuite.CodeStar_LoginTest&quot;/&gt;
+      &lt;class name=&quot;automation.testsuite.Alada_ChangePasswordTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;TC1_ChangePasswordSuccessfully&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- automation.testsuite.Alada_ChangePasswordTest --&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -188,14 +192,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'TC5_Logout')
-data.setCell(0, 2, 'automation.testsuite.CodeStar_LoginTest')
-data.setCell(0, 3, 7807);
+data.setCell(0, 1, 'TC1_ChangePasswordSuccessfully')
+data.setCell(0, 2, 'automation.testsuite.Alada_ChangePasswordTest')
+data.setCell(0, 3, 120330);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 7 seconds</span>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -221,19 +225,23 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">automation.testsuite.CodeStar_LoginTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">automation.testsuite.Alada_ChangePasswordTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">openWebPage</span>
+                <span class="method-name">openChrome</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">TC5_Logout</span>
-                <span class="method-start">4040 ms</span>
+                <span class="method-name">TC1_ChangePasswordSuccessfully</span>
+                <span class="method-start">21318 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">closeWebPage</span>
-                <span class="method-start">11849 ms</span>
+                <span class="method-name">ChangePasswordToTheOldOne</span>
+                <span class="method-start">141649 ms</span>
               </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">closeWebSite</span>
+                <span class="method-start">161909 ms</span>
+              </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
