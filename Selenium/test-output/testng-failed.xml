@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="automation.testsuite.Alada_ChangePasswordTest">
+      <class name="automation.testsuite.Tedu_Test">
         <methods>
+          <include name="TC3_SearchASPNET"/>
           <include name="openChrome"/>
-          <include name="closeWebPage"/>
-          <include name="TC1_ChangePasswordSuccessfully"/>
         </methods>
-      </class> <!-- automation.testsuite.Alada_ChangePasswordTest -->
+      </class> <!-- automation.testsuite.Tedu_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

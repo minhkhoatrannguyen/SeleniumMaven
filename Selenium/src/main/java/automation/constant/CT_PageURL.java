@@ -8,5 +8,6 @@ public class CT_PageURL {
 	public static String globalsQA = "https://www.globalsqa.com/demo-site/select-dropdown-menu";
 	public static String aladaURL = "https://alada.vn/tai-khoan/dang-nhap.html";
 	public static String codeStarTestingURL = "http://test-system.crmstar.vn";
+	public static String teduURL = "https://tedu.com.vn/";
 
 }
