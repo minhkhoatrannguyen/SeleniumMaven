@@ -58,8 +58,8 @@ public class CodeStar_LoginTest extends CommonBase {
 		assertEquals(true, driver.findElement(By.xpath("//h4[contains(text(),'Đăng nhập')]")).isDisplayed());
 	}
 
-	@AfterMethod
-	public void closeWebPage() {
-		driver.close();
-	}
+//	@AfterMethod
+//	public void closeWebPage() {
+//		driver.close();
+//	}
 }

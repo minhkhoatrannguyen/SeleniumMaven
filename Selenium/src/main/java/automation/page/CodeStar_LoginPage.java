@@ -22,20 +22,23 @@ public class CodeStar_LoginPage extends CommonBase {
 	}
 
 	public void loginFunction(String email, String password) {
-		WebElement textEmail = driver.findElement(CT_CodeStarTestingPage_Account.EMAIL_TEXTBOX);
-		WebElement textPassword = driver.findElement(CT_CodeStarTestingPage_Account.PASSWORD_TEXTBOX);
-		WebElement btnLogin = driver.findElement(CT_CodeStarTestingPage_Account.DANGNHAP_BUTTON);
-		if (textEmail.isDisplayed()) {
-			textEmail.clear();
-			textEmail.sendKeys(email);
-		}
-		if (textPassword.isDisplayed()) {
-			textPassword.clear();
-			textPassword.sendKeys(password);
-		}
-		if (btnLogin.isDisplayed()) {
-			btnLogin.click();
-		}
+//		WebElement textEmail = driver.findElement(CT_CodeStarTestingPage_Account.EMAIL_TEXTBOX);
+//		WebElement textPassword = driver.findElement(CT_CodeStarTestingPage_Account.PASSWORD_TEXTBOX);
+//		WebElement btnLogin = driver.findElement(CT_CodeStarTestingPage_Account.DANGNHAP_BUTTON);
+//		if (textEmail.isDisplayed()) {
+//			textEmail.clear();
+//			textEmail.sendKeys(email);
+//		}
+//		if (textPassword.isDisplayed()) {
+//			textPassword.clear();
+//			textPassword.sendKeys(password);
+//		}
+//		if (btnLogin.isDisplayed()) {
+//			btnLogin.click();
+//		}
+		type(By.id("email"),email);
+		type(By.id("password"),password);
+		click(By.name("signin"));
 	}
 	
 	public void waitForSuccessfullyToastMessageShowing() {

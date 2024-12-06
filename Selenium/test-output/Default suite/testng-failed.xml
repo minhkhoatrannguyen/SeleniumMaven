@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="automation.testsuite.Tedu_Test">
+      <class name="automation.testsuite.CodeStar_AddKhuLamViecTest">
         <methods>
-          <include name="TC3_SearchASPNET"/>
-          <include name="openChrome"/>
+          <include name="openWebPage"/>
+          <include name="closeWebPage"/>
+          <include name="TC4_InputInvalidMaKLVAndTenKLVWhenAddKhuLamViec"/>
         </methods>
-      </class> <!-- automation.testsuite.Tedu_Test -->
+      </class> <!-- automation.testsuite.CodeStar_AddKhuLamViecTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
