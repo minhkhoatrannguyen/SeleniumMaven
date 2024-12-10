@@ -1,25 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="3" total="4" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-07T05:34:13 ICT" name="Default suite" finished-at="2024-12-07T05:34:19 ICT" duration-ms="6082">
+  <suite started-at="2024-12-11T05:12:41 ICT" name="Default suite" finished-at="2024-12-11T05:12:50 ICT" duration-ms="9814">
     <groups>
     </groups>
-    <test started-at="2024-12-07T05:34:13 ICT" name="Default test" finished-at="2024-12-07T05:34:19 ICT" duration-ms="6082">
-      <class name="automation.testsuite.CodeStar_AddKhuLamViecTest">
-        <test-method is-config="true" signature="openWebPage()[pri:0, instance:automation.testsuite.CodeStar_AddKhuLamViecTest@2794eab6]" started-at="2024-12-07T05:34:13 ICT" name="openWebPage" finished-at="2024-12-07T05:34:17 ICT" duration-ms="3768" status="PASS">
+    <test started-at="2024-12-11T05:12:41 ICT" name="Default test" finished-at="2024-12-11T05:12:50 ICT" duration-ms="9814">
+      <class name="automation.testsuite.MediaMart_VerifyChatZaloTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:automation.testsuite.MediaMart_VerifyChatZaloTest@791f145a]" started-at="2024-12-11T05:12:41 ICT" name="openBrowser" finished-at="2024-12-11T05:12:44 ICT" duration-ms="3440" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openWebPage -->
-        <test-method signature="TC4_InputInvalidMaKLVAndTenKLVWhenAddKhuLamViec()[pri:4, instance:automation.testsuite.CodeStar_AddKhuLamViecTest@2794eab6]" started-at="2024-12-07T05:34:17 ICT" name="TC4_InputInvalidMaKLVAndTenKLVWhenAddKhuLamViec" finished-at="2024-12-07T05:34:18 ICT" duration-ms="1675" status="PASS">
+        </test-method> <!-- openBrowser -->
+        <test-method signature="VerifyButtonBatDauChatShowing()[pri:0, instance:automation.testsuite.MediaMart_VerifyChatZaloTest@791f145a]" started-at="2024-12-11T05:12:44 ICT" name="VerifyButtonBatDauChatShowing" finished-at="2024-12-11T05:12:50 ICT" duration-ms="6348" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC4_InputInvalidMaKLVAndTenKLVWhenAddKhuLamViec -->
-        <test-method is-config="true" signature="closeWebPage()[pri:0, instance:automation.testsuite.CodeStar_AddKhuLamViecTest@2794eab6]" started-at="2024-12-07T05:34:18 ICT" name="closeWebPage" finished-at="2024-12-07T05:34:19 ICT" duration-ms="615" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeWebPage -->
-      </class> <!-- automation.testsuite.CodeStar_AddKhuLamViecTest -->
+        </test-method> <!-- VerifyButtonBatDauChatShowing -->
+      </class> <!-- automation.testsuite.MediaMart_VerifyChatZaloTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

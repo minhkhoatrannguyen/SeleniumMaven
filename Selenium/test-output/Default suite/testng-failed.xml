@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="automation.testsuite.CodeStar_AddKhuLamViecTest">
+      <class name="automation.testsuite.MediaMart_VerifyChatZaloTest">
         <methods>
-          <include name="openWebPage"/>
-          <include name="closeWebPage"/>
-          <include name="TC4_InputInvalidMaKLVAndTenKLVWhenAddKhuLamViec"/>
+          <include name="openBrowser"/>
+          <include name="VerifyButtonBatDauChatShowing"/>
         </methods>
-      </class> <!-- automation.testsuite.CodeStar_AddKhuLamViecTest -->
+      </class> <!-- automation.testsuite.MediaMart_VerifyChatZaloTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

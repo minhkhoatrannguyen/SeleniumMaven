@@ -12,7 +12,7 @@ public class Day12_Checkbox extends CommonBase {
 
 	@BeforeMethod
 	public void openWebPage() {
-		driver = initChromeDriver(CT_PageURL.demoQA);
+		driver = initChromeDriver(CT_PageURL.DEMOQA);
 	}
 
 //	@Test

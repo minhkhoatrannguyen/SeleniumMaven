@@ -15,7 +15,7 @@ public class Day12_DropdownList extends CommonBase {
 
 	@BeforeMethod
 	public void openWebPage() {
-		driver = initChromeDriver(CT_PageURL.codeStarAWS);
+		driver = initChromeDriver(CT_PageURL.CODESTAR_COURSE);
 	}
 
 	@Test

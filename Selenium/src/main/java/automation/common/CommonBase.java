@@ -45,7 +45,7 @@ public class CommonBase {
 		wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
 		return driver.findElement(locator);
 	}
-	
+
 	public List<WebElement> getElementSPresentDOM(By locator) {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(initWaitTime));
 		wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
