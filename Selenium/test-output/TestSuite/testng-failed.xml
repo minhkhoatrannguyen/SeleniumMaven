@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestSuite]">
+  <test thread-count="5" name="Regression test all classes on firefox(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="automation.testsuite.DienMayNhapKhau_ZaloTest">
+        <methods>
+          <include name="VerifyClickingOnZalo"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- automation.testsuite.DienMayNhapKhau_ZaloTest -->
+    </classes>
+  </test> <!-- Regression test all classes on firefox(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

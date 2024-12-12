@@ -13,8 +13,11 @@ import automation.constant.CT_PageURL;
 public class Day17_Windows extends CommonBase {
 
 	@BeforeMethod
-	public void openBrowser() {
-		driver = initChromeDriver(CT_PageURL.GURUWINDOWS);
+	@Parameters("browser")
+	public void openBrowser(String browserName) {
+//		driver = initChromeDriver(CT_PageURL.GURUWINDOWS);
+		setUpDriver(browserName);
+		driver.get(CT_PageURL.GURUWINDOWS);
 	}
 
 	@Test
@@ -28,6 +31,7 @@ public class Day17_Windows extends CommonBase {
 		for (String window : listWindows) {
 			if(!window.equals(mainWindow)) {
 				driver.switchTo().window(window);
+				pause(3000);
 				assertEquals(driver.getCurrentUrl(),"https://demo.guru99.com/articles_popup.php");
 				type(By.name("emailid"),"test@gmail.com");
 				click(By.name("btnLogin"));

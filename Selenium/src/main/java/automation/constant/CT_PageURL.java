@@ -17,4 +17,5 @@ public class CT_PageURL {
 	public static String CODESTAR = "https://codestar.vn/";
 	public static String BEPANTOAN = "https://bepantoan.vn/";
 	public static String MEDIAMART = "https://mediamart.vn/";
+	public static String DIENMAYNHAPKHAUGIARE = "https://dienmaynhapkhaugiare.com.vn/";
 }

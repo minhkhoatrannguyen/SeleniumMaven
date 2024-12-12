@@ -11,6 +11,7 @@ import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -18,15 +19,15 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class CommonBase {
 
 	public static WebDriver driver;
-	public int initWaitTime = 40;
+	public int initWaitTime = 50;
 
 	public WebDriver initChromeDriver(String URL) {
 		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\driver\\chromedriver.exe");
 		System.out.println("user.dir is: " + System.getProperty("user.dir"));
 		driver = new ChromeDriver();
-		driver.manage().window().maximize();
 		driver.get(URL);
-		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
+		driver.manage().window().maximize();
+		driver.manage().timeouts().pageLoadTimeout(initWaitTime, TimeUnit.SECONDS);
 		return driver;
 	}
 
@@ -34,9 +35,65 @@ public class CommonBase {
 		System.setProperty("webdriver.firefox.driver", System.getProperty("user.dir") + "\\driver\\geckodriver.exe");
 		System.out.println("user.dir is: " + System.getProperty("user.dir"));
 		driver = new FirefoxDriver();
-		driver.manage().window().maximize();
 		driver.get(URL);
-		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
+		driver.manage().window().maximize();
+		driver.manage().timeouts().pageLoadTimeout(initWaitTime, TimeUnit.SECONDS);
+		return driver;
+	}
+
+	public WebDriver initMSEdgeDriver(String URL) {
+		System.setProperty("webdriver.edge.driver", System.getProperty("user.dir") + "\\driver\\msedgedriver.exe");
+		driver = new EdgeDriver();
+		driver.get(URL);
+		driver.manage().window().maximize();
+		driver.manage().timeouts().pageLoadTimeout(initWaitTime, TimeUnit.SECONDS);
+		return driver;
+	}
+	
+	public WebDriver initChromeDriver() {
+		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\driver\\chromedriver.exe");
+		System.out.println("user.dir is: " + System.getProperty("user.dir"));
+		driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.manage().timeouts().pageLoadTimeout(initWaitTime, TimeUnit.SECONDS);
+		return driver;
+	}
+
+	public WebDriver initFirefoxDriver() {
+		System.setProperty("webdriver.firefox.driver", System.getProperty("user.dir") + "\\driver\\geckodriver.exe");
+		System.out.println("user.dir is: " + System.getProperty("user.dir"));
+		driver = new FirefoxDriver();
+		driver.manage().window().maximize();
+		driver.manage().timeouts().pageLoadTimeout(initWaitTime, TimeUnit.SECONDS);
+		return driver;
+	}
+
+	public WebDriver initMSEdgeDriver() {
+		System.setProperty("webdriver.edge.driver", System.getProperty("user.dir") + "\\driver\\msedgedriver.exe");
+		driver = new EdgeDriver();
+		driver.manage().window().maximize();
+		driver.manage().timeouts().pageLoadTimeout(initWaitTime, TimeUnit.SECONDS);
+		return driver;
+	}
+
+	public WebDriver setUpDriver(String browserName) {
+		switch (browserName.trim()) {
+		case "chrome":
+			System.out.println("Initialize chrome browser...");
+			initChromeDriver();
+			break;
+		case "firefox":
+			System.out.println("Initialize firefox browser...");
+			initFirefoxDriver();
+			break;
+		case "edge":
+			System.out.println("Initialize msedge browser...");
+			initMSEdgeDriver();
+			break;
+		default:
+			System.out.println("Browser: " + browserName + " is invalid, launching Chrome as browser of choice...");
+			initChromeDriver();
+		}
 		return driver;
 	}
 

@@ -11,8 +11,10 @@ import automation.constant.CT_PageURL;
 public class Day17_iFrame extends CommonBase {
 
 	@BeforeMethod
-	public void openBrowser() {
-		driver = initChromeDriver(CT_PageURL.CODESTAR);
+	@Parameters("browser")
+	public void openBrowser(String browserName) {
+		setUpDriver(browserName);
+		driver.get(CT_PageURL.CODESTAR);
 	}
 
 	@Test
